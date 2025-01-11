@@ -17,5 +17,9 @@ This project involves creating a quiz app which can be used by new joiners in th
 
 ## Project Planning
 
+## Lo-fi Prototypes
+[Figma File](https://www.figma.com/design/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=0-1&t=sRhBFr8xsGT2VL0I-1)
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=5-3&p=f&scaling=min-zoom&content-scaling=fixed&page-id=5%3A2&starting-point-node-id=5%3A3&embed-host=share" allowfullscreen></iframe>
+[Figma Prototype 1](https://www.figma.com/proto/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=1-2&t=HUWEvItwD0lRnqA4-1&starting-point-node-id=1%3A2)
+
+[Figma Prototype 2](https://www.figma.com/proto/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=5-2&t=sRhBFr8xsGT2VL0I-1)
