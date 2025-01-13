@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const quizForm = document.getElementById('quizForm');   // Retrieving quiz form ID
+    const quizInfo = document.getElementById('quizInfo')
     const scoreParagraph = document.getElementById('score');    // Retrieving score element ID
     const resultsDiv = document.getElementById('results');  // Retrieving the results div element
     const retakeButton = document.createElement('button');  // Creating a retake button element
@@ -8,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     retakeButton.textContent = 'Retake Quiz';   // Adding text to the button
     retakeButton.addEventListener('click', () => {  // Looks out for when the button is clicked
         quizForm.reset();   // Resets quiz after the button is clicked
-        quizForm.classList.remove('hidden');    // Shows the quiz after the button is clicked
+        quizForm.classList.remove('hidden');
+        quizInfo.classList.remove('hidden');    // Shows the quiz after the button is clicked
         resultsDiv.classList.add('hidden');    // Hides the results section after the burron is clicked 
     });
 
@@ -48,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         quizForm.classList.add('hidden');   // Hides the quiz after submission
+        quizInfo.classList.add('hidden');
         resultsDiv.classList.remove('hidden');  // Shows results section after submission
         resultsDiv.appendChild(retakeButton);   // Adds retake button to the results section after submission
     });
