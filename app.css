@@ -1,0 +1,4 @@
+/* Used to hide sections of the form i.e after submission, hide the questions */
+.hidden {
+    display: none;
+}
