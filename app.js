@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Creating the correct answer dictionary for each question
         const correctAnswer = {
-            q1: 'Correct Answer',
-            q2: 'Correct Answer 2'
+            q1: '67,000,000',
+            q2: '45%'
         };
         
         let score = 0;  // Setting initial score to 0
