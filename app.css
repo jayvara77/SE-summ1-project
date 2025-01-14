@@ -1,3 +1,8 @@
+@font-face {
+    font-family: MyliusModern;
+    src: url(./font/MyliusModern-Light.ttf);
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -33,15 +38,18 @@ body {
 .header-title {
     text-align: center;
     justify-content: center;
-    flex-grow: 1;
+    font-family: MyliusModern;
 }
 
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    padding: 20px;
+    max-width: 900px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     background-color: white;
     text-align: center;
     border: 2px solid #000000;
@@ -52,9 +60,23 @@ body {
 }
 
 
+#quizInfo {
+    font-family: MyliusModern;
+    font-weight: 900;
+}
+
+
 .question {
     margin-bottom: 20px;
     text-align: left;
+    font-family: MyliusModern;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+
+#results {
+    font-family: MyliusModern;
 }
 
 

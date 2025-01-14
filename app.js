@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Creating the correct answer dictionary for each question
         const correctAnswer = {
             q1: '67,000,000',
-            q2: '45%'
+            q2: '45%',
+            q3: '1,500,000',
+            q4: '600,000,000',
+            q5: '12'
         };
         
         let score = 0;  // Setting initial score to 0
