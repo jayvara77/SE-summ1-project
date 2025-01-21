@@ -1,7 +1,7 @@
 // Test file for app functions
 
 // Retrieving functions from app
-const { calculateScore, getCorrectAnswers, getCorrectAnswersTable } = require('./app');
+const { calculateScore, getCorrectAnswers, getCorrectAnswersTable } = require('./index');
 
 // Test the `getCorrectAnswers` function
 test('getCorrectAnswers returns correct answers object', () => {
