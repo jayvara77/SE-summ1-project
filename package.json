@@ -1,0 +1,30 @@
+{
+  "name": "se-summ1-project",
+  "version": "1.0.0",
+  "description": "Software Engineering December 2024 / January 2025 Summative 1 Repository.\r This README file contains the documentation for the quiz app created for the British Airways Data Science Commercial team.",
+  "main": "app.js",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayvara77/SE-summ1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayvara77/SE-summ1-project/issues"
+  },
+  "homepage": "https://github.com/jayvara77/SE-summ1-project#readme",
+  "jest": {
+    "testMatch": [
+      "**/app.test.js"
+    ],
+    "testEnvironment": "jsdom"
+  }
+}
