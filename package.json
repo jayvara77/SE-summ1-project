@@ -23,7 +23,7 @@
   "homepage": "https://github.com/jayvara77/SE-summ1-project#readme",
   "jest": {
     "testMatch": [
-      "**/app.test.js"
+      "**/index.test.js"
     ],
     "testEnvironment": "jsdom"
   }
