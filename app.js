@@ -127,25 +127,9 @@ function displayResults(score, feedback, correctAnswer, scoreParagraph, quizForm
         scoreParagraph.innerHTML = `Your score: ${score} out of ${numberOfQuestions}.<br><br>${feedback.join('<br>')}`;   // Outputs correct answer and feedback on separate lines  
     }
 
-    // Hides the quiz and quizInfo after submission
-    quizForm.classList.add('hidden');
-    quizInfo.classList.add('hidden');
-
-    // Shows results section after submission
-    resultsDiv.classList.remove('hidden');
-
-    // Adds retake button to the results section after submission
-    resultsDiv.appendChild(retakeButton);
-}
-
-// Exporting modules for testing
-module.exports = {
-    initQuizApp,
-    createRetakeButton,
-    handleRetake,
-    handleFormSubmit,
-    getCorrectAnswers,
-    getCorrectAnswersTable,
-    calculateScore,
-    displayResults
-};
+        quizForm.classList.add('hidden');   // Hides the quiz after submission
+        quizInfo.classList.add('hidden');
+        resultsDiv.classList.remove('hidden');  // Shows results section after submission
+        resultsDiv.appendChild(retakeButton);   // Adds retake button to the results section after submission
+    });
+});
