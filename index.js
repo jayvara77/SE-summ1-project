@@ -1,3 +1,5 @@
+// This file adds functionality to the html code
+
 document.addEventListener('DOMContentLoaded', initQuizApp);
 
 // Function that initialises the quiz

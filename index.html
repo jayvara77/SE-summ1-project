@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- The following code sets up the page name -->
 <head>
-    <meta charset="UTF-8">
-    <title>Commercial DS Quiz</title>
-    <link rel="stylesheet" href="/SE-summ1-project/index.css">
+    <meta charset="UTF-8"> <!-- Setting UTF-8 character encoding -->
+    <title>Commercial DS Quiz</title> <!-- Title for the webpage -->
+    <link rel="stylesheet" href="/SE-summ1-project/index.css"> <!-- Retrieving style from CSS file-->
 </head>
 
+<!-- The following code sets up the webpage content -->
 <body>
     <div class="outer-container">
+        <!-- Container for the header section including the image and title -->
         <div class="header">
-            <img src="ba_logo.png" alt="Logo" class="header-image">
-            <h1 class="header-title">British Airways Commercial Data Science Quiz!</h1>
+            <img src="ba_logo.png" alt="Logo" class="header-image"> <!-- Adding the BA logo to the page -->
+            <h1 class="header-title">British Airways Commercial Data Science Quiz!</h1> <!-- Adding the quiz title-->
         </div>
 
+        <!-- Container for the quiz intro and questions -->
         <div class="container">
             <h4 id="quizInfo" ,class="quiz-info">Welcome to the Commercial Data Science quiz!
                 This quiz is designed to get you familiar with datasets most commonly used in the Commercial team.
@@ -25,6 +29,7 @@
                 <br> - Comm_Sales
                 <br> Note: Not all datasets are required and some questions may require 2 or more datasets!
             </h4>
+            <!-- Adding questions to the page - adding radio buttons for selection and setting as required to require an input for submission-->
             <form id="quizForm">
                 <div class="question">
                     <p>Question 1: How much revenue did the LHR-JFK route make in March 2023 (nearest million)? (LHR-JFK and JFK-LHR)</p>
@@ -61,10 +66,11 @@
                     <input type="radio" name="q5" value="9"> 9<br>
                     <input type="radio" name="q5" value="12"> 12
                 </div>
-
+                <!-- Adding submit button to retrieve answers-->
                 <button type="submit">Submit</button>
             </form>
 
+            <!-- Adding a hidden results section which will show up once submission has been made -->
             <div id="results" class="hidden"> 
                 <h2>Test Results</h2>    
                 <p id="score"></p>
@@ -72,6 +78,6 @@
         </div>
 
     </div>
-    <script src="index.js"></script>
+    <script src="index.js"></script> <!-- Getting script from index file -->
 </body>
 </html>

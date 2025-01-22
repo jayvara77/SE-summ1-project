@@ -1,91 +1,98 @@
+/* The following code is used to style the HTML code */
+
+/* Getting the font file */
 @font-face {
     font-family: MyliusModern;
     src: url(./font/MyliusModern-Light.ttf);
 }
 
+
+/* Style for the overall body of the page */
 body {
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-    background-color: #cdebf9;
-    background-image: url('plane_icon.png');
-    background-repeat: space;
-    background-size: 150px 150px;
+    height: 100vh; /* Set the height of the page to fill the viewport */
+    margin: 0; /* Remove default margins */
+    text-align: center; /* Centre-align text content */
+    background-color: #cdebf9; /* Light blue background colour */
+    background-image: url('plane_icon.png'); /* Add a background image */
+    background-repeat: space; /* Repeat the image with space between copies */
+    background-size: 150px 150px; /* Set the size of the background image */
 }
 
+/* Style for the outer container that wraps other elements */
 .outer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Centre items horizontally */
+    gap: 1em; /* Add spacing between items */
 }
 
-
+/* Style for the header section */
 .header {
-    display: flex;
-    width: 98%;
-    margin-top: 20px;
-    justify-content: center;
-    background-color: white;
-    max-width: 900px;
-    border: 2px solid #000000;
-    border-radius: 15px;
+    display: flex; /* Use flexbox for layout */
+    width: 98%; /* Make the header slightly smaller than full width */
+    margin-top: 20px; /* Add spacing above the header */
+    justify-content: center; /* Centre-align content */
+    background-color: white; /* White background colour */
+    max-width: 900px; /* Set a maximum width for the header */
+    border: 2px solid #000000; /* Add a black border */
+    border-radius: 15px; /* Round the corners of the header */
 }
 
+/* Style for the header image container */
 .header-image {
-    display: flex;
-    justify-content: center;
-    width: 110px;
-    height: 80px;
-    margin-right: 15px;
-    align-items: center;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Centre the image inside the container */
+    width: 110px; /* Set the width of the image container */
+    height: 80px; /* Set the height of the image container */
+    margin-right: 15px; /* Add spacing to the right of the container */
+    align-items: center; /* Vertically centre the image */
 }
 
-
+/* Style for the header title */
 .header-title {
-    text-align: center;
-    justify-content: center;
-    font-family: MyliusModern;
-    font-size: 36px;
+    text-align: center; /* Centre-align the text */
+    justify-content: center; /* Ensure the title is centred in flexbox */
+    font-family: MyliusModern; /* Use a custom font for the title */
+    font-size: 36px; /* Set the font size */
 }
 
-
+/* Style for the main container */
 .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 900px;
-    padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    background-color: white;
-    text-align: center;
-    border: 2px solid #000000;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: flex-end;
-    flex-grow: 1;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 900px; /* Set a maximum width for the container */
+    padding-top: 0px; /* No padding at the top */
+    padding-left: 15px; /* Add padding on the left */
+    padding-right: 15px; /* Add padding on the right */
+    padding-bottom: 15px; /* Add padding at the bottom */
+    background-color: white; /* White background colour */
+    text-align: center; /* Centre-align text inside */
+    border: 2px solid #000000; /* Add a black border */
+    border-radius: 15px; /* Round the corners */
+    align-items: center; /* Centre items horizontally */
+    justify-content: flex-end; /* Align items to the bottom */
+    flex-grow: 1; /* Allow the container to grow to fill space */
 }
 
-
+/* Style for quiz information text */
 #quizInfo {
-    font-family: MyliusModern;
-    font-weight: 900;
+    font-family: MyliusModern; /* Use a custom font */
+    font-weight: 900; /* Set bold font weight */
 }
 
-
+/* Style for individual questions */
 .question {
-    margin-bottom: 20px;
-    text-align: left;
-    font-family: MyliusModern;
-    font-weight: 100;
-    line-height: 1.8;
+    margin-bottom: 20px; /* Add spacing below each question */
+    text-align: left; /* Align text to the left */
+    font-family: MyliusModern; /* Use a custom font */
+    font-weight: 100; /* Use a light font weight */
+    line-height: 1.8; /* Set line spacing for better readability */
 }
 
-
+/* Style for the results section */
 #results {
-    font-family: MyliusModern;
-    line-height: 1.8;
+    font-family: MyliusModern; /* Use a custom font */
+    line-height: 1.8; /* Set line spacing for better readability */
 }
 
 
