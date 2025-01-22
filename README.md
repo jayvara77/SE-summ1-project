@@ -13,10 +13,13 @@ The app can be viewed using the following link:
 ### [Lo-fi Prototypes](#lo-fi-prototypes)
 
 ## About the App
+This app is a short quiz which allows new Data Science Commercial team joiners to take in order to test their current knowledge and help them get a better understanding of data tables used in the commercial team. It consists of 5 multiple-choice questions, each of which will require the user to query certain tables to get the correct answer. Upon completing the quiz, the user will receive feedback on their submission. The user will be notified of their score as well as feedback on any questions they got wrong alongside the correct answer and hints on which tables to use to get the correct answer. The user will then be able to retake the quiz by clicking on the "retake quiz" button.
 
 ## User Documentation
+To run the quiz, simply click on the link above which will take you to the quiz! Read the quiz introduction which will give you tell you which tables would be useful and then simply answer all the questions to the best of your ability. Once you have picked your answers, click submit and you will get your results. Upon getting your results, you can retake the quiz in case you didn't get full marks and can use the table hint to help you answer the question. If any bugs are found, please email jay.vara@ba.com along with the issues you are facing.
 
 ## Technical Documentation
+
 
 ## Project Planning
 To complete this project, I used Agile principles in conjunction with the Scrum framework. One of the main Agile principles I used was prioritising working software rather than focusing on a long documentation process. Part of this includes documenting code within the code, rather than creating a separate document as this takes up a lot of time and can be less effective than using comments within code. I used the Scrum framework to break down the project into several iterations, completing small milestones using sprints, rather than attempting to create the final product from the beginning. This comes with the advantage of being able to create MVPs to gain feedback which can be used to consistently improve the app. Furthermore, this allows a product to be pushed to live faster, with improvements being added post-deployment.
