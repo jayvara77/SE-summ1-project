@@ -8,7 +8,8 @@
     "jest-environment-jsdom": "^29.7.0"
   },
   "scripts": {
-    "test": "jest"
+  "test": "jest",
+  "build": "echo "
   },
   "repository": {
     "type": "git",
