@@ -13,7 +13,7 @@ The app can be viewed using the following link:
 ### [Lo-fi Prototypes](#lo-fi-prototypes)
 
 ## About the App
-This app is a short quiz that allows new Data Science Commercial team joiners to take in order to test their current knowledge and help them get a better understanding of data tables used in the commercial team. It consists of 5 multiple-choice questions, each of which will require the user to query certain tables to get the correct answer. Upon completing the quiz, the user will receive feedback on their submission. The user will be notified of their score as well as feedback on any questions they got wrong alongside the correct answer and hints on which tables to use to get the correct answer. The user will then be able to retake the quiz by clicking on the "retake quiz" button.
+This app is a short quiz that allows new Data Science Commercial team joiners to take in order to test their current knowledge and help them get a better understanding of data tables used in the commercial team. It consists of 5 multiple-choice questions, each of which requires the user to query certain tables to get the correct answer. Upon completing the quiz, the user will receive feedback on their submission. The user will be notified of their score as well as feedback on any questions they got wrong alongside the correct answer and hints on which tables to use to get the correct answer. The user will then be able to retake the quiz by clicking on the "retake quiz" button.
 
 The app is currently deployed on GitHub pages. allowing it to be accessed from the repository using the link above.
 
@@ -90,3 +90,8 @@ This project involves creating a quiz app that will be used by new joiners in th
 [Figma Prototype 1](https://www.figma.com/proto/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=1-2&t=HUWEvItwD0lRnqA4-1&starting-point-node-id=1%3A2)
 
 [Figma Prototype 2](https://www.figma.com/proto/olgE7OLUvEObJ8tJKlZfDi/Quiz_App_Prototype?node-id=5-2&t=sRhBFr8xsGT2VL0I-1)
+
+## Evaluation
+The app functions as intended and follows the British Airways theme. The layout of the app is also extremely clear and clean, with no colour clashes. The colour scheme is also accessible as it is colour blind friendly. Furthermore, it is extremely simple for the users. I am also very happy with the feedback system and results layout. The Software Engineering process was also implemented effectively as each spring was clear and concise, meaning the app could be developed quickly and would still be functional. The backend of the app is also very simple and intuitive. The inline comments and documentation allows for easy handovers, allowing for future development to be completed quickly and easily.
+There are some improvements I could make to the app. Future iterations of the app would have some UI and UX improvements such as allowing an option to be selected by clicking on the text rather than having to click on the small radio button, which can be annoying. Furthermore, I would also change the backend so I have a pool of questions as a variable, as well as the corresponding answers and tables. I would then extract the questions and implement them into the code using loops. Although this is harder to implement, it allow additional questions to be added a lot quicker as you would just need to add it to the pool, rather than manually having to create each HTML.
+
