@@ -5,12 +5,12 @@ The app can be viewed using the following link:
 [BA Commercial Quiz App](https://jayvara77.github.io/SE-summ1-project/)
 
 ## Contents
-### [About the App](#about-the-app)
-### [User Documentation](#user-documentation)
-### [Technical Documentation](#technical-documentation)
-### [Project Planning](#project-planning)
-### [Project Proposal](#project-proposal)
-### [Lo-fi Prototypes](#lo-fi-prototypes)
+- [About the App](#about-the-app)
+- [User Documentation](#user-documentation)
+- [Technical Documentation](#technical-documentation)
+- [Project Planning](#project-planning)
+- [Project Proposal](#project-proposal)
+- [Lo-fi Prototypes](#lo-fi-prototypes)
 
 ## About the App
 This app is a short quiz that allows new Data Science Commercial team joiners to take in order to test their current knowledge and help them get a better understanding of data tables used in the commercial team. It consists of 5 multiple-choice questions, each of which requires the user to query certain tables to get the correct answer. Upon completing the quiz, the user will receive feedback on their submission. The user will be notified of their score as well as feedback on any questions they got wrong alongside the correct answer and hints on which tables to use to get the correct answer. The user will then be able to retake the quiz by clicking on the "retake quiz" button.
