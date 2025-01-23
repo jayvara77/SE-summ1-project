@@ -30,6 +30,12 @@ To run the quiz, simply click on the link above which will take you to the quiz!
 ### Code overview:
 HTML - 
 
+### Testing
+For this project, I incorporated unit testing using Jest. Unit testing allows for automatic testing of the quiz functionality quickly and efficiently. The unit testing in my code tests the calculate score, get answers and the get answer table functions. Jest allows for automated testing of pull requests, meaning you do not need to manually test the changes made to the code. This, in combination with Continuous Integration and Development provides for a quick, efficient and effective process for future version of the quiz.
+
+### Continuous Integration and Development
+I have incorporated continuous integration and development. Continuous Integration ensures code changes are tested and integrated into the main branch smoothly. Continuous Development allows these code changes to be deployed to the user quickly and automatically. The combination of the two allows for quick and efficient testing and delivery of the updates once a pull request is made for the update, saving time and effort for the developers.
+
 ## Project Planning
 To complete this project, I used Agile principles in conjunction with the Scrum framework. One of the main Agile principles I used was prioritising working software rather than focusing on a long documentation process. Part of this includes documenting code within the code, rather than creating a separate document as this takes up a lot of time and can be less effective than using comments within code. I used the Scrum framework to break down the project into several iterations, completing small milestones using sprints, rather than attempting to create the final product from the beginning. This comes with the advantage of being able to create MVPs to gain feedback which can be used to consistently improve the app. Furthermore, this allows a product to be pushed to live faster, with improvements being added post-deployment.
 As mentioned earlier, the project was broken down into a series sprints - each with a particular goal to progress the application. The sprint and sprint goals were as follows:
